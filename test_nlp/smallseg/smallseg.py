@@ -15,7 +15,7 @@ class SEG(object):
         print('dict ok.',sys.stderr)  
     #set dictionary(a list)
     def set(self,keywords):
-        p = self.d  # 以单个字符为索引/存贮，保存为树结构,每个词是倒序处理.  所以分词处理也是倒序处理
+        p = self.d  # 以单个字符为索引/存贮，保存为树结构,每个词是倒序处理.  所以分词处理也是倒序处理(逆向)
         q = {}
         k = ''
         for word in keywords:
